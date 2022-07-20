@@ -1,0 +1,280 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+/*header start*/
+.header {
+    text-align: left;
+    display: flex;
+    background-color: #161616 ;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+.part-1{
+    padding: 5%;
+    width: 50% ;
+}
+#heading{
+    color: white;
+    font-size: 70px;
+}
+.para{
+    color: white;
+}
+/*set header link button decoration*/
+.link-button {
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.link-button:hover {background-color: lightskyblue}
+
+.link-button:active {
+  background-color: lightpink;
+  transform: translateY(4px);
+}
+.image img{
+    height: 600px;
+    width: 550px;
+}
+.part-2{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 1%;
+}
+/*header end*/
+.leftSide{
+    margin-top: 3%;
+    margin-left: 10%;
+    background-color: #161616;
+    height: 300px;
+    width: 495px;
+    border-radius: 10px;
+}
+.one{
+    margin: 50px 60px 20px;
+    width: 75%;
+    height: 20%;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.two{
+    margin: 10px 60px;
+    width: 75%;
+    height: 18%;
+    background-color: #DD0000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.three{
+    margin: 10px 60px;
+    width: 75%;
+    height: 18%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.upcoming{
+    margin: 50px;
+    margin-left: 60px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    background-color: white; 
+    padding: 15px 116px;
+    border-radius: 5px;
+}
+.upcoming-match{
+   margin-left: 60px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 15px 116px;
+    border-radius: 5px;
+}
+
+.one a{
+    text-decoration: none;
+    color: #161616;
+    font-weight: 700;
+}
+.two a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.three a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.rightSideBar{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 2.2%;
+}
+.rightSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   margin-top: 2.2%;
+   margin-left: 5%; 
+}
+.rightSide{
+    margin-top: 4%;
+    margin-left: 6%;
+    height: 400px;
+    width: 312px; 
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.right{
+    margin-top: 4%;
+    margin-left: 6%;
+    height: 150px;
+    width: 250px; 
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.match1{
+    display: flex;
+}
+.fray{
+    margin: 20px 15px;
+}
+.text{
+   text-align: center 
+}
+/*set button decoration*/
+.link-bttn{
+    margin-top: 40%;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    border:1px solid black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 15px;
+ }
+ .rightSideBar .rightSide h3{
+    margin-left: 15px;
+    padding: 8px 5px;
+ }
+.count{
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.num{
+    margin: 10px;
+    color: #161616;
+}
+.num2{
+    margin: 10px;
+    color: #4D4D4D;
+}
+.rsb{
+    display: flex;
+    height: 35px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin-top:100px ;
+}
+footer .foot{
+    padding: 30px;
+    text-align: center;
+}
+.foot-heading{
+    color: white;
+    margin: 50px;
+}
+.end{
+    margin-top: 50px;
+}
+.link-btn{
+    text-decoration: none;
+    color: gray;
+    padding: 5px 50px;
+}
+/*set icons decoration*/
+.fa {
+    padding: 10px;
+    padding-top: 0%;
+    padding-right: 10px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /*Add a hover effect if  want*/
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /*Set a specific color for each brand*/
+  
+  /*Facebook*/
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 20px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /*Twitter*/
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin: 20px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+  }
+  /*Youtube*/
+  .fa-youtube {
+    background: red;
+    color: white;
+    margin: 20px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+  }
+  /*set a specific color for footer*/
+footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    margin-top:100px ;
+}
+footer .foot{
+    padding: 30px;
+    text-align: center;
+}
+/*set a specific color for footer text*/
+.foot-heading{
+    color: white;
+    margin: 50px;
+}
+.finish{
+    margin-top: 50px;
+}
+/*set a specific color for footer buttons*/
+.btn{
+    text-decoration: none;
+    color: gray;
+    padding: 5px 50px;
+}
